@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{14C47D18-4866-4868-98B6-36C69FB0EBA0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FEPV.Implementation</RootNamespace>
+    <AssemblyName>FEPV.Implementation</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Release\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GenuineChannels">
+      <HintPath>..\..\LIB\GenuineChannels.dll</HintPath>
+    </Reference>
+    <Reference Include="MIS.Utility">
+      <HintPath>..\..\LIB\MIS.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="NBear.Common">
+      <HintPath>..\..\LIB\NBear.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="NBear.Data">
+      <HintPath>..\..\LIB\NBear.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcService.cs" />
+    <Compile Include="CardDataService.cs" />
+    <Compile Include="FEPVMIS\FEPVInterface.cs" />
+    <Compile Include="FEPVMIS\GoodsDAL.cs" />
+    <Compile Include="FEPVMIS\UIReportDAL.cs" />
+    <Compile Include="FEPVMIS\VouchersDAL.cs" />
+    <Compile Include="HelperBiz.cs" />
+    <Compile Include="ITruckDAL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportService.cs" />
+    <Compile Include="ShortTruckService.cs" />
+    <Compile Include="TruckInOutService.cs" />
+    <Compile Include="Trucks\JointTruck_DAL.cs" />
+    <Compile Include="Trucks\NearTruck_DAL.cs" />
+    <Compile Include="Trucks\PtaEgTruck_DAL.cs" />
+    <Compile Include="Trucks\SpecialTruck_DAL.cs" />
+    <Compile Include="Trucks\UnJointTruck_DAL.cs" />
+    <Compile Include="Trucks_Factory.cs" />
+    <Compile Include="WorkflowService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Contract\FEPV.Contract.csproj">
+      <Project>{07423784-1f25-4d2c-917c-e7ad3a0e27d9}</Project>
+      <Name>FEPV.Contract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HttpUtils\HttpUtils.csproj">
+      <Project>{e3f97a45-dc46-4efa-a73d-594586481d95}</Project>
+      <Name>HttpUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\FEPV.Model.csproj">
+      <Project>{68916bbb-693b-4768-9b67-6590b06d028f}</Project>
+      <Name>FEPV.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

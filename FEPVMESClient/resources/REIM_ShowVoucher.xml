@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="1" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="xtraTabPage1" Column1="result" Column2="查询结果" Column3="查詢結果" Column4="Thông tin" />
+  </DataTable>
+  <!--GridTable:gridViewGood1-->
+  <GridTable TableName="gvData" CountOfRows="26" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+	<Row0 Column0="MaterialNO" Column1="Material" Column2="物料号" Column3="物料號" Column4="Mã vật phẩm" />
+    <Row1 Column0="ProdSpec" Column1="ProdSpec" Column2="规格" Column3="規格" Column4="Thông số kỹ thuật" />
+    <Row2 Column0="CenterID" Column1="CostCenter" Column2="成本中心" Column3="成本中心" Column4="Trung tâm chi phí" />
+    <Row3 Column0="Plant" Column1="Plant" Column2="工厂" Column3="工廠" Column4="Nhà máy" />
+    <Row4 Column0="Loc" Column1="Location" Column2="位置" Column3="位置" Column4="Vị trí" />
+    <Row5 Column0="PayInMonthWH" Column1="Pay of warehouse in month" Column2="本月缴库" Column3="本月繳庫" Column4="Nhập kho trong tháng" />
+    <Row6 Column0="Batch" Column1="Batch" Column2="批次" Column3="批次" Column4="Lô hàng" />
+    <Row7 Column0="TransferInMonth" Column1="Transfer this month" Column2="本月调拨" Column3="本月調撥" Column4="Điều động pc trong tháng" />
+    <Row8 Column0="PayOutInMonth" Column1="Out of warehouse in month" Column2="本月出库" Column3="本月出庫" Column4="Xuất kho trong tháng" />
+    <Row9 Column0="PayInMonthPC" Column1="PayofwarehouseinmonthPC" Column2="本月缴库pc" Column3="本月繳庫pc" Column4="Nhập kho pc trong tháng " />
+    <Row10 Column0="PayInDayPC" Column1="PayofwarehouseontodayPC" Column2="本日缴库pc" Column3="本月調撥pc" Column4="Nhập kho pc trong ngày" />
+	<Row11 Column0="CallInMonthPC" Column1="CallinmonthPC" Column2="本月调拨pc" Column3="本月調撥pc" Column4="Điều động pc trong tháng" />
+	<Row12 Column0="DumpInMonth" Column1="DumpInMonth" Column2="本月转储" Column3="本月轉儲" Column4="Chuyển kho trong tháng" />
+	<Row13 Column0="Total" Column1="Total" Column2="结存" Column3="結存" Column4="Tổng số" />
+	<Row14 Column0="TotalPC" Column1=" TotalPC" Column2="结存pc" Column3="結存pc" Column4="Tổng số PC" />
+	<Row15 Column0="PayInDayWH" Column1=" PayInDayWH" Column2="本日缴库" Column3="本日繳庫" Column4="Nhập kho trong ngày" />
+	<Row16 Column0="DispatchInDay" Column1="Dispatch Today" Column2="本日调拨" Column3="本日調撥" Column4="Gửi đi hôm nay" />
+	<Row17 Column0="TransInDayPC" Column1="TransInDayPC" Column2="本日调拨pc" Column3="本日調撥pc" Column4="Gửi đi hôm nay PC" />
+	<Row18 Column0="PayOutMonthPC" Column1="PayOutMonthPC" Column2="本月出库pc" Column3="本月出庫pc" Column4="Xuất kho trong tháng PC" />
+	<Row19 Column0="PayOutInDay" Column1="PayOutInDay" Column2="本日出库" Column3="本日出庫" Column4="Xuất kho trong ngày" />
+	<Row20 Column0="PayOutDayPC" Column1="PayOutDayPC" Column2="本日出库PC" Column3="本日出庫PC" Column4="Xuất kho trong ngày PC" />
+	<Row21 Column0="DumpInMonthPC" Column1="DumpInMonthPC" Column2="本月转储" Column3="本月轉儲PC" Column4="Chuyển kho pc trong tháng" />
+	<Row22 Column0="DumpInDay" Column1="DumpInDay" Column2="本日转储" Column3="本日轉儲" Column4="Chuyển kho trong ngày" />
+	<Row23 Column0="DumpInDayPC" Column1="DumpInDayPC" Column2="本日转储PC" Column3="本日轉儲PC" Column4="Chuyển kho trong ngày PC" />
+	<Row24 Column0="BeginDate" Column1="Beginning" Column2="期初" Column3="期初" Column4="Bắt đầu" />
+	<Row25 Column0="MinPC" Column1="BeginningPC" Column2="期初pc" Column3="期初pc" Column4="Bắt đầu PC" />
+  </GridTable>
+</Form>

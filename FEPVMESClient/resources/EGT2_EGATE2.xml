@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="13" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="btnBackGoods" Column1="Return" Column2="后退" Column3="後退" Column4="Quay trở lại" />
+    <Row1 Column0="btnBackGuest" Column1="Return" Column2="后退" Column3="後退" Column4="Quay trở lại" />
+    <Row2 Column0="btnCameraGuest" Column1="Camera" Column2="拍照" Column3="拍照" Column4="Chụp ảnh" />
+    <Row3 Column0="btnInGoods" Column1="CheckIn" Column2="进厂登记" Column3="進廠登記" Column4="Đăng ký vào xưởng" />
+    <Row4 Column0="btnInGuest" Column1="CheckIn" Column2="进厂登记" Column3="進廠登記" Column4="Đăng ký vào xưởng" />
+    <Row5 Column0="btnOutGoods" Column1="CheckOut" Column2="出厂放行" Column3="出廠放行" Column4="Rời xưởng" />
+    <Row6 Column0="btnOutGuest" Column1="CheckOut" Column2="出厂放行" Column3="出廠放行" Column4="Rời xưởng" />
+    <Row7 Column0="btnSaveGuest" Column1="SaveInfo" Column2="保存信息" Column3="保存信息" Column4="Lưu thông tin" />
+    <Row8 Column0="btnScanGoods" Column1="Scan" Column2="扫描" Column3="掃描" Column4="Quét" />
+    <Row9 Column0="btnSearchGoods" Column1="Query" Column2="查询" Column3="查詢" Column4="Tìm kiếm" />
+    <Row10 Column0="btnSearchGuest" Column1="Query" Column2="查询" Column3="查詢" Column4="Tìm kiếm" />
+    <Row11 Column0="tabPageGoods" Column1="Goods Plan" Column2="物品计划查询" Column3="物品計劃查詢" Column4="Tìm kiếm mã số sản phẩm" />
+    <Row12 Column0="tabPageGuest" Column1="Visitor Plan" Column2="访客计划查询" Column3="訪客計劃查詢" Column4="Tìm kiếm mã số nhân viên" />
+  </DataTable>
+</Form>

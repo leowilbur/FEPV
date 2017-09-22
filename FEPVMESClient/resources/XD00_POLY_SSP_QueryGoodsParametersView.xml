@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="6" CountOfColumns="5" >
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+	<Row0 Column0="lb_Datefrom" Column1="Production Date From:" Column2="生产日期:" Column3="生产日期:" Column4="Sản xuất từ ngày:" />
+	<Row1 Column0="lb_Dateto" Column1="To:" Column2="到:" Column3="到:" Column4="Đến:" />
+    <Row2 Column0="lbMaterial" Column1="Material" Column2="物料:" Column3="物料:" Column4="Vật liệu:" />
+	<Row3 Column0="lbBatch" Column1="Batch:" Column2="批次:" Column3="批次:" Column4="Batch:" />
+	<Row4 Column0="lbBarcode" Column1="Barcode:" Column2="单号:" Column3="单号:" Column4="Mã vạch:" />
+	<Row6 Column0="lbPackNo" Column1="PackageNo:" Column2="包号:" Column3="包号:" Column4="Mã kiện hàng:" />
+  </DataTable>
+</Form>

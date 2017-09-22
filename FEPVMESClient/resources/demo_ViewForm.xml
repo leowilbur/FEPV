@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+<!--DataTable: LanguageSetting-->
+<DataTable TableName="LanguageSetting" CountOfRows="5" CountOfColumns="5">
+  <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW"  Column4="VN" />
+  <Row0 Column0="lbCard" Column1="Card ID" Column2="卡   号" Column3="卡   號"  Column4="VNCard ID" />
+  <Row1 Column0="lbTruck" Column1="Truck ID" Column2="车号" Column3="車號"  Column4="VNTruck ID" />
+  <Row2 Column0="btRole" Column1="Role Setting" Column2="角色" Column3="角色"  Column4="VNRole Setting" />
+  <Row3 Column0="_ParameterPanel" Column1="Parameter Setting" Column2="参数设置" Column3="參數設置"  Column4="VNParameter Setting" />
+  <Row4 Column0="btTCode" Column1="TCode Setting" Column2="模块" Column3="模塊"  Column4="VNTCode Setting" />
+</DataTable>
+<!--Grid: gvItemGrid-->
+<GridTable TableName="gvItemGrid" CountOfRows="3" CountOfColumns="5">
+  <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW"  Column4="VN" />
+  <Row0 Column0="ID" Column1="Code" Column2="编号" Column3="編號"  Column4="VNCode" />
+  <Row1 Column0="EN" Column1="English Name" Column2="英文名" Column3="英文名"  Column4="VNName1" />
+  <Row2 Column0="CN" Column1="Chinese Name" Column2="中文名" Column3="中文名"  Column4="VNName2" />
+  <Row3 Column0="VN" Column1="Viet Name" Column2="越南语名" Column3="越南語名"  Column4="VNName3" />
+  <Row4 Column0="TW" Column1="Traditional Name" Column2="繁体中文名" Column3="繁體中文名"  Column4="VNName4" /> 
+</GridTable>
+</Form>

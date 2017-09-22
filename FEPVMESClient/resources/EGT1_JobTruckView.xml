@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="15" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="btnRePrint" Column1="PrintAgain" Column2="补印磅单" Column3="補印磅單" Column4="In lại" />
+    <Row1 Column0="groupPanel1" Column1="[Vehicle info details]" Column2="[车辆信息明细]" Column3="[車輛信息明細]" Column4="[Điều kiện tìm kiếm]" />
+    <Row2 Column0="labelControl1" Column1="VehicleNO" Column2="车号" Column3="車號" Column4="Biển số xe xe" />
+    <Row3 Column0="labelControl12" Column1="Discharge" Column2="卸货点" Column3="卸貨點" Column4="Điểm xuống hàng" />
+    <Row4 Column0="labelControl13" Column1="ReferWeight" Column2="参考重量" Column3="參考重量" Column4="Trọng lượng tham khảo" />
+    <Row5 Column0="labelControl14" Column1="ShippingOrder" Column2="通知单号" Column3="通知單號" Column4="Số thông báo" />
+    <Row6 Column0="labelControl15" Column1="Remark" Column2="备注" Column3="備註" Column4="Ghi chú" />
+    <Row7 Column0="labelControl16" Column1="VoucherID" Column2="计划单号" Column3="計劃單號" Column4="Mã số đơn" />
+    <Row8 Column0="labelControl17" Column1="CupboardNO" Column2="柜号" Column3="櫃號" Column4="Số hàng" />
+    <Row9 Column0="labelControl2" Column1="VehicleType" Column2="车辆类型" Column3="車輛類型" Column4="Loại xe" />
+    <Row10 Column0="labelControl3" Column1="MaterielType" Column2="料品" Column3="料品" Column4="Loại vật liệu" />
+    <Row11 Column0="labelControl4" Column1="Manufacturer" Column2="客户" Column3="客戶" Column4="Khách hàng" />
+    <Row12 Column0="labelControl5" Column1="Driver" Column2="司机" Column3="司機" Column4="Tài xế" />
+    <Row13 Column0="labelControl6" Column1="FirstWeight" Column2="进厂过磅" Column3="進廠過磅" Column4="Trọng lượng vào" />
+    <Row14 Column0="labelControl7" Column1="SecondWeight" Column2="出厂过磅" Column3="出廠過磅" Column4="Trọng lượng ra" />
+  </DataTable>
+  <!--GridTable:gridView1-->
+  <GridTable TableName="gridView1" CountOfRows="33" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="VehicleNO" Column1="VehicleNO" Column2="车号" Column3="車號" Column4="Biển số xe" />
+    <Row1 Column0="VehicleShape" Column1="Vehicle Shape" Column2="车型" Column3="車型" Column4="Loại xe" />
+    <Row2 Column0="VoucherID" Column1="VoucherID" Column2="VoucherID" Column3="VoucherID" Column4="Mã chứng từ" />
+    <Row3 Column0="VehicleType" Column1="Vehicle Type" Column2="车辆类型" Column3="車輛類型" Column4="Loại phương tiện" />
+    <Row4 Column0="ShippingOrder" Column1="OrderNO" Column2="通知单号" Column3="通知單號" Column4="Số thông báo" />
+    <Row5 Column0="StateSpec" Column1="StatusSpec" Column2="状态描述" Column3="狀態描述" Column4="Miêu tả trạng thái" />
+    <Row6 Column0="TransferCompany" Column1="TransferCompany" Column2="运输公司" Column3="運輸公司" Column4="Công ty vận tải" />
+    <Row7 Column0="Driver" Column1="Driver" Column2="司机" Column3="司機" Column4="Tài xế" />
+    <Row8 Column0="Manufacturer" Column1="Manufacturer" Column2="客户" Column3="客戶" Column4="Khách hàng" />
+    <Row9 Column0="LinkMan" Column1="Link Man" Column2="联系人" Column3="聯繫人" Column4="Người liên hệ" />
+    <Row10 Column0="LinkPhone" Column1="Link Phone" Column2="联系电话" Column3="聯系電話" Column4="Điện thoại liên hệ" />
+    <Row11 Column0="ExpectIn" Column1="ExpectIn" Column2="预约进厂日期" Column3="預約進廠日期" Column4="Ngày hẹn vào xuỏng" />
+    <Row12 Column0="ValidatePeriod" Column1="ValidatePeriod" Column2="有效期" Column3="有效期" Column4="Hiệu lực" />
+    <Row13 Column0="InTime" Column1="InTime" Column2="进厂时间" Column3="進廠時間" Column4="Thời gian vào xưởng" />
+    <Row14 Column0="FirstTime" Column1="FirstTime" Column2="进厂过磅时间" Column3="進廠過磅時間" Column4="Thời gian qua cân nhập xưởng" />
+    <Row15 Column0="FirstWeight" Column1="FirstWeight" Column2="进厂过磅" Column3="進廠過磅" Column4="Trọng lượng nhập xưởng" />
+    <Row16 Column0="SecondTime" Column1="SecondTime" Column2="出厂过磅时间" Column3="出廠過磅時間" Column4="Thời gian qua cân xuất xưởng" />
+    <Row17 Column0="SecondWeight" Column1="SecondWeight" Column2="出厂过磅" Column3="出廠過磅" Column4="Trọng lượng xuất xưởng" />
+    <Row18 Column0="Complete" Column1="Complete" Column2="现场确认时间" Column3="現場確認時間" Column4="Thời gian xác nhận" />
+    <Row19 Column0="Stamp" Column1="Stamp" Column2="时间戳" Column3="時間戳" Column4="Mốc thời thời" />
+    <Row20 Column0="UserID" Column1="UserID" Column2="创建人" Column3="創建人" Column4="Người lập" />
+    <Row21 Column0="ComeTime" Column1="Come Time" Column2="到厂时间" Column3="到廠時間" Column4="Thời gian đến xưởng" />
+    <Row22 Column0="TotalWeight" Column1="TotalWeight" Column2="称重" Column3="稱重" Column4="Cân nặng" />
+    <Row23 Column0="MaterielType" Column1="Materiel Type" Column2="料品" Column3="料品" Column4="Loại hàng" />
+    <Row24 Column0="ItemID" Column1="ItemID" Column2="项次号" Column3="項次號" Column4="số hạng mục" />
+    <Row25 Column0="CupboardNO" Column1="CupboardNO" Column2="柜号" Column3="櫃號" Column4="Số container" />
+    <Row26 Column0="Discharge" Column1="Discharge" Column2="卸货点" Column3="卸貨點" Column4="Điểm xuống hàng" />
+    <Row27 Column0="Types" Column1="Types" Column2="Types" Column3="Types" Column4="Loại xe" />
+    <Row28 Column0="Status" Column1="Status" Column2="Status" Column3="Status" Column4="trạng thái" />
+    <Row29 Column0="Remark" Column1="Remark" Column2="备注" Column3="備註" Column4="Ghi chú" />
+    <Row30 Column0="ReferWeight" Column1="ReferWeight" Column2="参考重量" Column3="參考重量" Column4="Trọng lượng dự kiến" />
+    <Row31 Column0="Message" Column1="Message" Column2="异常信息" Column3="異常信息" Column4="Thông báo" />
+    <Row32 Column0="Reason" Column1="Reason" Column2="原因说明" Column3="原因說明" Column4="Lý do" />
+  </GridTable>
+</Form>

@@ -1,0 +1,38 @@
+D:\Volore\Source\BAS\RemotingService\bin\Debug\RemotingService.exe.config
+D:\Volore\Source\BAS\RemotingService\bin\Debug\RemotingService.exe
+D:\Volore\Source\BAS\RemotingService\bin\Debug\RemotingService.pdb
+D:\Volore\Source\BAS\RemotingService\obj\Debug\ResolveAssemblyReference.cache
+D:\Volore\Source\BAS\RemotingService\obj\Debug\RemotingService.exe
+D:\Volore\Source\BAS\RemotingService\obj\Debug\RemotingService.pdb
+E:\VsTestCase\MBR\RemotingService\bin\Debug\RemotingService.exe.config
+E:\VsTestCase\MBR\RemotingService\bin\Debug\RemotingService.exe
+E:\VsTestCase\MBR\RemotingService\bin\Debug\RemotingService.pdb
+E:\VsTestCase\MBR\RemotingService\obj\Debug\ResolveAssemblyReference.cache
+E:\VsTestCase\MBR\RemotingService\obj\Debug\RemotingService.exe
+E:\VsTestCase\MBR\RemotingService\obj\Debug\RemotingService.pdb
+E:\BAS20110815\RemotingService\bin\Debug\RemotingService.exe.config
+E:\BAS20110815\RemotingService\bin\Debug\RemotingService.exe
+E:\BAS20110815\RemotingService\bin\Debug\RemotingService.pdb
+E:\BAS20110815\RemotingService\obj\Debug\ResolveAssemblyReference.cache
+E:\BAS20110815\RemotingService\obj\Debug\RemotingService.exe
+E:\BAS20110815\RemotingService\obj\Debug\RemotingService.pdb
+D:\FEPVCODE\BAS20161223\RemotingService\bin\Debug\RemotingService.exe.config
+D:\FEPVCODE\BAS20161223\RemotingService\bin\Debug\RemotingService.exe
+D:\FEPVCODE\BAS20161223\RemotingService\bin\Debug\RemotingService.pdb
+D:\FEPVCODE\BAS20161223\RemotingService\obj\Debug\RemotingService.exe
+D:\FEPVCODE\BAS20161223\RemotingService\obj\Debug\RemotingService.pdb
+D:\FEPVCODE\BAS20161223\Release\RemotingService.exe.config
+D:\FEPVCODE\BAS20161223\Release\RemotingService.exe
+D:\FEPVCODE\BAS20161223\Release\RemotingService.pdb
+D:\FEPVCODE\FEPV MES CODE\BrushCardSystem\Release\RemotingService.exe.config
+D:\FEPVCODE\FEPV MES CODE\BrushCardSystem\Release\RemotingService.exe
+D:\FEPVCODE\FEPV MES CODE\BrushCardSystem\Release\RemotingService.pdb
+D:\FEPVCODE\FEPV MES CODE\BrushCardSystem\RemotingService\obj\Debug\RemotingService.csprojResolveAssemblyReference.cache
+D:\FEPVCODE\FEPV MES CODE\BrushCardSystem\RemotingService\obj\Debug\RemotingService.exe
+D:\FEPVCODE\FEPV MES CODE\BrushCardSystem\RemotingService\obj\Debug\RemotingService.pdb
+D:\SVN\FEPVMES\BrushCardSystem\Release\RemotingService.exe.config
+D:\SVN\FEPVMES\BrushCardSystem\Release\RemotingService.exe
+D:\SVN\FEPVMES\BrushCardSystem\Release\RemotingService.pdb
+D:\SVN\FEPVMES\BrushCardSystem\RemotingService\obj\Debug\RemotingService.exe
+D:\SVN\FEPVMES\BrushCardSystem\RemotingService\obj\Debug\RemotingService.pdb
+D:\SVN\FEPVMES\BrushCardSystem\RemotingService\obj\Debug\RemotingService.csprojResolveAssemblyReference.cache

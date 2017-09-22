@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="7" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="lblDateFrom" Column1="Date From:" Column2="区间日期:" Column3="区间日期:" Column4="Từ ngày:" />
+	<Row1 Column0="lblDateTo" Column1="To:" Column2="到:" Column3="到:" Column4="Đến:" />
+	<Row2 Column0="lblMaterial" Column1="Material:" Column2="物料:" Column3="物料:" Column4="Mã vật liệu:" />
+	<Row3 Column0="lblPlant" Column1="Plant:" Column2="工厂:" Column3="工厂:" Column4="Xưởng:" />
+	<Row4 Column0="lblBatch" Column1="Batch:" Column2="批次:" Column3="批次:" Column4="Kí hiệu:" />
+	<Row5 Column0="lblLocation" Column1="Location:" Column2="地点:" Column3="地点:" Column4="Vị trí:" />
+	<Row6 Column0="_ParameterPanel" Column1="[Parameters]" Column2="[批次参数]" Column3="[批次参数]" Column4="[Chi tiết vật liệu]" />
+  </DataTable>
+</Form>

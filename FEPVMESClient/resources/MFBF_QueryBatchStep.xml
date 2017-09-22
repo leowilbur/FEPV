@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="0" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+  </DataTable>
+  
+  <!--GridTable:gridView1-->
+  <GridTable TableName="gridView1" CountOfRows="12" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="MaterialNo" Column1="MaterialNo" Column2="物料" Column3="物料" Column4="Mã vật liệu" />
+	<Row1 Column0="CenterID" Column1="CenterID" Column2="成本中心" Column3="成本中心" Column4="Trung tâm chi phí" />
+	<Row2 Column0="Batch" Column1="Batch" Column2="批次" Column3="批次" Column4="Kí hiệu" />
+	<Row3 Column0="Total" Column1="Total" Column2="总量" Column3="总量" Column4="Tổng trọng lượng hàng" />
+	<Row4 Column0="Barcodes" Column1="Barcodes" Column2="总数" Column3="总数" Column4="Số lượng mã vạch" />
+	<Row5 Column0="Packing" Column1="Packing" Column2="包装方式" Column3="包装方式" Column4="Mã đóng gói" />
+	<Row6 Column0="StartDate" Column1="StartDate" Column2="起始日期" Column3="起始日期" Column4="Ngày bắt đầu" />
+	<Row7 Column0="EndDate" Column1="EndDate" Column2="截止日期" Column3="截止日期" Column4="Ngày kết thúc" />
+	<Row8 Column0="Plant" Column1="Plant" Column2="工厂" Column3="工厂" Column4="Xưởng" />
+	<Row9 Column0="Loc" Column1="Loc" Column2="地点" Column3="地点" Column4="Vị trí" />
+	<Row10 Column0="Version" Column1="Version" Column2="版本" Column3="版本" Column4="Phiên bản" />
+	<Row11 Column0="PreVersion" Column1="PreVersion" Column2="前道版本" Column3="前道版本" Column4="Phiên bản cũ" />
+  </GridTable>
+</Form>

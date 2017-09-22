@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+
+  <system.runtime.remoting>
+    <application>
+      <lifetime
+        leaseTime="10M"
+        sponsorshipTimeout="10M"
+        renewOnCallTime="10M"
+        leaseManagerPollTime="1M"
+      		/>
+
+      <channels>
+        <channel type="Shawoo.GenuineChannels.GenuineTcp.GenuineTcpChannel, GenuineChannels"
+                 Compression="true"
+                 ConnectTimeOut="3000"
+                 ReconnectionTries="1"
+                 />
+      </channels>
+    </application>
+  </system.runtime.remoting>
+
+</configuration>

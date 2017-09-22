@@ -1,0 +1,25 @@
+0.得到流程的节点，这个数据库取
+1.得到所有需要发邮件的任务:http://demo.feg.cn:9999/default/bpm-rest-api/task?processDefinitionId="+definId+"&taskDefinitionKey="+taskDefinitionKey;
+2.得到任务处理的人http://demo.feg.cn:9999/default/bpm-rest-api/task/006c0464-9c04-11e6-9267-005056b650ba/identity-links
+3.Userid查找到发邮件地址
+4.统计
+
+下午2点
+FEPV MIS 系统(FEPV MIS(10.20.46.22) )
+任务：访客入厂申请: 1 个, 
+承揽商资质信息: 4个 
+
+IT應用系统为您服务:有文档需要您审核，请进入系统进行审核！
+备注：提醒邮件每天下午3點发送1次，若您已对该单据进行过处理，请忽略本次提示。
+请经常主动进入FEPV 門禁系统进行单据处理，以保证单据的及时处理，提高效率。
+
+
+
+[
+ {"processDefinitionId": "FEPVGateGoodOut:1:e7d4fe25-d3d1-11e6-9959-0050568cc98b","taskDefinitionKey": "UserTaskleadercheck","WorkFlow":"物品出厂"},
+  {"processDefinitionId": "FEPVGateGoodOut:1:e7d4fe25-d3d1-11e6-9959-0050568cc98b","taskDefinitionKey": "UserTaskUpdate"},
+    {"processDefinitionId": "FEPVGateGuest:1:ddb60ce1-d3d1-11e6-9959-0050568cc98b","taskDefinitionKey": "UserTask_Check"},
+    {"processDefinitionId": "FEPVGateGuest:1:ddb60ce1-d3d1-11e6-9959-0050568cc98b","taskDefinitionKey": "UserTask_Update"},
+    {"processDefinitionId": "FEPVGateGuest:1:ddb60ce1-d3d1-11e6-9959-0050568cc98b","taskDefinitionKey": "UserTask_2"}
+
+]

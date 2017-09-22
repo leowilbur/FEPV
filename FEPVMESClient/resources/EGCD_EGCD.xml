@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="7" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="btnNew" Column1="Add" Column2="新建" Column3="新建" Column4="Thêm" />
+    <Row1 Column0="btnQuery" Column1="Query" Column2="查询" Column3="查詢" Column4="Tìm kiếm" />
+    <Row2 Column0="groupPanel1" Column1="[Query Condition]" Column2="[查询条件]" Column3="[查詢條件]" Column4="[Điều kiện tìm kiếm]" />
+    <Row3 Column0="groupPanel2" Column1="[Query Result]" Column2="[查询结果]" Column3="[查詢結果]" Column4="Kết quả" />
+    <Row4 Column0="label1" Column1="Status" Column2="卡片状态" Column3="卡片狀態" Column4="Tình trạng thẻ" />
+    <Row5 Column0="label2" Column1="ID No" Column2="射频卡号" Column3="射頻卡號" Column4="Số thẻ" />
+    <Row6 Column0="label5" Column1="Type" Column2="卡片类型" Column3="卡片類型" Column4="Loại thẻ" />
+	<Row7 Column0="btnPrint" Column1="Print" Column2="打印" Column3="打印" Column4="In thẻ" />
+  </DataTable>
+  <!--GridTable:gridViewGuest1-->
+  <GridTable TableName="gridViewGuest1" CountOfRows="11" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="CardID" Column1="CardID" Column2="卡号" Column3="卡號" Column4="Số thẻ" />
+    <Row1 Column0="CNO" Column1="CNO" Column2="编号" Column3="編號" Column4="Mã số" />
+    <Row2 Column0="CardType" Column1="CardType" Column2="卡片类型描述" Column3="卡片類型描述" Column4="Loại thẻ" />
+    <Row3 Column0="CardStatus" Column1="CardStatus" Column2="卡片状态描述" Column3="卡片狀態描述" Column4="Tình trạng thẻ" />
+    <Row4 Column0="ValidTo" Column1="ValidTo" Column2="有效期" Column3="有效期" Column4="Hiệu lực" />
+    <Row5 Column0="Remark" Column1="Remark" Column2="备注" Column3="備註" Column4="Ghi chú" />
+    <Row6 Column0="UserID" Column1="UserID" Column2="创建人" Column3="創建人" Column4="Người tạo" />
+    <Row7 Column0="AccDate" Column1="AccDate" Column2="创建日期" Column3="創建日期" Column4="Ngày tạo" />
+    <Row8 Column0="Stamp" Column1="Stamp" Column2="异动日期" Column3="異動日期" Column4="Ngày chỉnh sửa" />
+    <Row9 Column0="CardTypeID" Column1="CardTypeID" Column2="卡片类型" Column3="卡片類型" Column4="Loại thẻ" />
+    <Row10 Column0="Status" Column1="Status" Column2="卡片状态" Column3="卡片狀態" Column4="Trạng thái" />
+  </GridTable>
+</Form>

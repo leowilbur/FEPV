@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="13" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="xrLabel1" Column1="A list of the details of the registration of visitors" Column2="访客登记明细表" Column3="訪客登記明細表" Column4="Khách truy cập đăng ký lịch" />
+    <Row1 Column0="xrLabel10" Column1="CardNO" Column2="卡号" Column3="卡號" Column4="Số thẻ" />
+    <Row2 Column0="xrLabel11" Column1="Respondents" Column2="受访人" Column3="受訪人" Column4="người tiếp khách" />
+    <Row3 Column0="xrLabel12" Column1="InTime" Column2="进厂时间" Column3="進廠時間" Column4="Đến thời gian" />
+    <Row4 Column0="xrLabel13" Column1="OutTime" Column2="出厂时间" Column3="出廠時間" Column4="Vận chuyển" />
+    <Row5 Column0="xrLabel14" Column1="VoucherID" Column2="计划单号" Column3="計劃單號" Column4="mã số đơn" />
+    <Row6 Column0="xrLabel15" Column1="Date interval" Column2="日期区间" Column3="日期區間" Column4="Khoảng thời gian ngày" />
+    <Row7 Column0="xrLabel4" Column1="Name" Column2="姓名" Column3="姓名" Column4="Tên" />
+    <Row8 Column0="xrLabel5" Column1="Enterprise" Column2="工作单位" Column3="工作單位" Column4="Đơn vị làm việc" />
+    <Row9 Column0="xrLabel6" Column1="IdCard" Column2="证件号码" Column3="證件號碼" Column4="Số giấy chứng nhận" />
+    <Row10 Column0="xrLabel7" Column1="Region" Column2="访问区域" Column3="訪問區域" Column4="khu tiếp khách" />
+    <Row11 Column0="xrLabel8" Column1="Types" Column2="人员类型" Column3="人員類型" Column4="loại người" />
+    <Row12 Column0="xrLabel9" Column1="Reason" Column2="事由" Column3="事由" Column4="Chủ đề" />
+  </DataTable>
+</Form>

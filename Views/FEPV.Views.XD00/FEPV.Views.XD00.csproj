@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{76FFDD76-A106-4D05-871D-33A6D6A83E2F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FEPV.Views.XD00</RootNamespace>
+    <AssemblyName>FEPV.Views.XD00</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Release\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BasicLanuage">
+      <HintPath>..\..\FEPV\Release\BasicLanuage.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2">
+      <HintPath>..\..\Views\Release\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v12.1, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dev\DevExpress.Data.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v12.1.Core, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dev\DevExpress.Printing.v12.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v12.1, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dev\DevExpress.Utils.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v12.1, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dev\DevExpress.XtraEditors.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v12.1, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Views\Release\DevExpress.XtraGrid.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v12.1, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dev\DevExpress.XtraLayout.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v12.1, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dev\DevExpress.XtraReports.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v12.1.Extensions, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dev\DevExpress.XtraReports.v12.1.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v12.1, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dev\DevExpress.XtraTreeList.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v12.1.Design, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dev\DevExpress.XtraTreeList.v12.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraWizard.v12.1, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dev\DevExpress.XtraWizard.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="GenuineChannels">
+      <HintPath>..\..\Views\Release\GenuineChannels.dll</HintPath>
+    </Reference>
+    <Reference Include="Infrastructure.BaseForm">
+      <HintPath>..\..\Views\Release\Infrastructure.BaseForm.dll</HintPath>
+    </Reference>
+    <Reference Include="Infrastructure.Library">
+      <HintPath>..\..\Views\Release\Infrastructure.Library.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.CompositeUI">
+      <HintPath>..\..\Views\Release\Microsoft.Practices.CompositeUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.CompositeUI.WinForms">
+      <HintPath>..\..\Views\Release\Microsoft.Practices.CompositeUI.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="MIS.Utility">
+      <HintPath>..\..\FEPV\Release\MIS.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json.Net20">
+      <HintPath>..\..\Views\Release\Newtonsoft.Json.Net20.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking">
+      <HintPath>..\..\Views\Release\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PrintLabel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XD01\SSPView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XD01\SSPView.Designer.cs">
+      <DependentUpon>SSPView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XD00Interface.cs" />
+    <Compile Include="XD01\POLYView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XD01\POLYView.Designer.cs">
+      <DependentUpon>POLYView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XD01\XD01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XD01\XD01.Designer.cs">
+      <DependentUpon>XD01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XD01\XD01Biz.cs" />
+    <Compile Include="XD03\SSP_EditGoodsParametersView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XD03\SSP_EditGoodsParametersView.Designer.cs">
+      <DependentUpon>SSP_EditGoodsParametersView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XD03\EditGoodsView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XD03\EditGoodsView.Designer.cs">
+      <DependentUpon>EditGoodsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XD03\POLY_EditGoodsParametersView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XD03\POLY_EditGoodsParametersView.Designer.cs">
+      <DependentUpon>POLY_EditGoodsParametersView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XD03\POLY_SSP_QueryGoodsParametersView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XD03\POLY_SSP_QueryGoodsParametersView.Designer.cs">
+      <DependentUpon>POLY_SSP_QueryGoodsParametersView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XD03\QueryGoodsView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XD03\QueryGoodsView.Designer.cs">
+      <DependentUpon>QueryGoodsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XD03\XD03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XD03\XD03.Designer.cs">
+      <DependentUpon>XD03.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XD03\XD03Biz.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="XD01\SSPView.resx">
+      <DependentUpon>SSPView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XD01\POLYView.resx">
+      <DependentUpon>POLYView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XD01\XD01.resx">
+      <DependentUpon>XD01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XD03\SSP_EditGoodsParametersView.resx">
+      <DependentUpon>SSP_EditGoodsParametersView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XD03\EditGoodsView.resx">
+      <DependentUpon>EditGoodsView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XD03\POLY_EditGoodsParametersView.resx">
+      <DependentUpon>POLY_EditGoodsParametersView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XD03\POLY_SSP_QueryGoodsParametersView.resx">
+      <DependentUpon>POLY_SSP_QueryGoodsParametersView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XD03\QueryGoodsView.resx">
+      <DependentUpon>QueryGoodsView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XD03\XD03.resx">
+      <DependentUpon>XD03.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\FEPV\BLL\FEPV.BLL.csproj">
+      <Project>{989df180-c826-481f-b5ea-6f2d48920e98}</Project>
+      <Name>FEPV.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\FEPV\Model\FEPV.Model.csproj">
+      <Project>{68916bbb-693b-4768-9b67-6590b06d028f}</Project>
+      <Name>FEPV.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FEPV.Views.MESD\FEPV.Views.MESD.csproj">
+      <Project>{c1aaa7f4-488f-42cf-98de-b213a7579227}</Project>
+      <Name>FEPV.Views.MESD</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

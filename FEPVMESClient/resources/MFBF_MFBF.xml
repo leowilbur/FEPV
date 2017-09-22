@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="8" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="btQueryUnsettled" Column1="Search" Column2="查询单据" Column3="查询单据" Column4="Tìm" />
+    <Row1 Column0="btNewVoucher" Column1="New" Column2="新建单据" Column3="新建单据" Column4="Tạo mới" />
+    <Row2 Column0="btUnPick" Column1="UnPick" Column2="退拣" Column3="退拣" Column4="Loại ra" />
+	<Row3 Column0="btDeleteVoucher" Column1="Delete" Column2="删除" Column3="删除" Column4="Xóa" />
+	<Row4 Column0="btCommit2Flow" Column1="Commit2Flow" Column2="提交" Column3="提交" Column4="Commit2Flow" />
+	<Row5 Column0="btPrint" Column1="Print" Column2="打印" Column3="打印" Column4="In báo cáo" />
+	<Row6 Column0="btReturn" Column1="Return" Column2="返回" Column3="返回" Column4="Quay lại" />
+	<Row7 Column0="btComplete" Column1="Complete" Column2="结束" Column3="" Column4="Xong" />
+  </DataTable>
+</Form>

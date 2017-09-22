@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="3" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="groupPanel1" Column1="[Goods Parameters]" Column2="[商品信息]" Column3="[商品信息]" Column4="[Thông tin sản phẩm]" />
+    <Row1 Column0="groupPanel2" Column1="[Goods Information]" Column2="[物品列表]" Column3="[物品列表]" Column4="[Danh sách sản phẩm]" />
+    <Row2 Column0="btCreatBarCode" Column1="Create" Column2="生成包号" Column3="生成包号" Column4="Tạo" />
+    <Row3 Column0="btIsPrint" Column1="IsPrint" Column2="是否打印" Column3="是否打印" Column4="Có In k ?" />
+  </DataTable>
+  
+  <!--GridTable:gridViewGood1-->
+  <GridTable TableName="gridViewGood1" CountOfRows="6" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="BarCode" Column1="BarCode" Column2="单号" Column3="单号" Column4="Mã vạch" />
+    <Row1 Column0="CenterID" Column1="CenterID" Column2="成本中心" Column3="成本中心" Column4="Trung tâm chi phí" />
+    <Row2 Column0="Num" Column1="Num" Column2="数量" Column3="数量" Column4="Số lượng" />
+    <Row3 Column0="ProdDate" Column1="ProdDate" Column2="创建日期" Column3="创建日期" Column4="Ngày tạo" />
+    <Row4 Column0="PrintNum" Column1="PrintNum" Column2="打印数量" Column3="打印数量" Column4="Số lượng in" />
+    <Row5 Column0="UserID" Column1="UserID" Column2="用户名称" Column3="用户名称" Column4="Mã người tạo" />
+  </GridTable>
+</Form>

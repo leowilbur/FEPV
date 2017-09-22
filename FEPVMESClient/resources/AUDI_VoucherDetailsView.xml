@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="0" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+  </DataTable>
+  <!--GridTable:gridView1-->
+  <GridTable TableName="gridView1" CountOfRows="6" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="VoucherID" Column1="VoucherID" Column2="单号" Column3="单号" Column4="Mã đơn" />
+    <Row1 Column0="BarCode" Column1="BarCode" Column2="包号" Column3="包号" Column4="Mã vạch" />
+    <Row2 Column0="Num" Column1="Weight" Column2="净重" Column3="净重" Column4="Trọng lượng" />
+    <Row3 Column0="GWT" Column1="GWT" Column2="毛重" Column3="毛重" Column4="GWT" />
+    <Row4 Column0="ProdDate" Column1="ProdDate" Column2="生产日期" Column3="生产日期" Column4="Ngày sản xuất" />
+    <Row5 Column0="PickID" Column1="PickID" Column2="拣配" Column3="拣配" Column4="Người gửi" />
+  </GridTable>
+  
+  <!--GridTable:gridView2-->
+  <GridTable TableName="gridView2" CountOfRows="16" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="VoucherID" Column1="VoucherID" Column2="单号" Column3="单号" Column4="Mã đơn" />
+    <Row1 Column0="AccDate" Column1="AccDate" Column2="单据日期" Column3="单据日期" Column4="Thời gian thao tác" />
+    <Row2 Column0="TransID" Column1="TransID" Column2="事务" Column3="事务" Column4="Mã vận tải" />
+    <Row3 Column0="ProdSpec" Column1="ProdSpec" Column2="规格" Column3="规格" Column4="Thông số sản phẩm" />
+    <Row4 Column0="MaterialNO" Column1="MaterialNO" Column2="物料" Column3="物料" Column4="Mã vật liệu" />
+    <Row5 Column0="CenterID" Column1="CenterID" Column2="成本中心" Column3="成本中心" Column4="Trung tâm chi phí" />
+	<Row6 Column0="Plant" Column1="Plant" Column2="工厂" Column3="工厂" Column4="Xưởng" />
+	<Row7 Column0="Loc" Column1="Loc" Column2="地点" Column3="地点" Column4="Vị trí" />
+	<Row8 Column0="Batch" Column1="Batch" Column2="批次" Column3="批次" Column4="Kí hiệu" />
+	<Row9 Column0="Version0" Column1="Version" Column2="本道" Column3="本道" Column4="Phiên bản" />
+	<Row10 Column0="Version" Column1="Pre-Version" Column2="前道" Column3="前道" Column4="Phiên bản cũ" />
+	<Row11 Column0="TotalNum" Column1="TotalNum" Column2="总重" Column3="总重" Column4="Tổng trọng lượng" />
+	<Row12 Column0="TotalCount" Column1="TotalCount" Column2="数量" Column3="数量" Column4="Tổng số mã vạch" />
+	<Row13 Column0="UserID" Column1="UserID" Column2="申请" Column3="申请" Column4="UserID" />
+	<Row14 Column0="CheckID" Column1="CheckID" Column2="验收" Column3="验收" Column4="Mã kiểm tra" />
+	<Row15 Column0="State" Column1="State" Column2="状态" Column3="状态" Column4="Trạng thái" />
+  </GridTable>
+</Form>

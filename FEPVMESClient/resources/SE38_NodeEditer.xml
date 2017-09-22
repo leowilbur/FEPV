@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="5" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="btCancle" Column1="Cancel" Column2="取消" Column3="取消" Column4="hủy" />
+    <Row1 Column0="btOK" Column1="confirm" Column2="确认" Column3="確認" Column4="xác nhận" />
+    <Row2 Column0="group" Column1="NodeEditer" Column2="节点维护" Column3="節點維護" Column4="bảo trì điểm chốt" />
+    <Row3 Column0="labelControl1" Column1="Name" Column2="名称" Column3="名稱" Column4="tên" />
+    <Row4 Column0="labelControl2" Column1="Description" Column2="描述" Column3="描述" Column4="miêu tả" />
+  </DataTable>
+</Form>

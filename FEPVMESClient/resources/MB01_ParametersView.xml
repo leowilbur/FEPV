@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="9" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="_ParameterPanel" Column1="Parameter" Column2="查询条件" Column3="查詢條件" Column4="điều khoảng điều tra" />
+    <Row1 Column0="chkIsNormal" Column1="isnormal" Column2="正常刷卡记录" Column3="正常刷卡記錄" Column4="isnormal" />
+    <Row2 Column0="label1" Column1="EmployerId" Column2="工号" Column3="工號" Column4="EmployerId" />
+    <Row3 Column0="label2" Column1="card type" Column2="卡类型" Column3="卡類型" Column4="Loại thẻ" />
+    <Row4 Column0="label4" Column1="name" Column2="姓名" Column3="姓名" Column4="Tên" />
+    <Row5 Column0="label5" Column1="company" Column2="公司单位" Column3="公司單位" Column4="Đơn vị làm việc" />
+    <Row6 Column0="label6" Column1="card No." Column2="识别卡号码" Column3="識別卡號碼" Column4="card No." />
+    <Row7 Column0="labelControl1" Column1="to" Column2="到" Column3="到" Column4="to" />
+    <Row8 Column0="labelControl6" Column1="date from" Column2="区间日期" Column3="區間日期" Column4="date from" />
+  </DataTable>
+</Form>

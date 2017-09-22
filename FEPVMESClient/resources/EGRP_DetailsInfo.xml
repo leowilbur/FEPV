@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="5" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="btClose" Column1="Close" Column2="关闭" Column3="關閉" Column4="đóng" />
+    <Row1 Column0="label14" Column1="VoucherID" Column2="计划单号" Column3="計劃單號" Column4="mã số đơn" />
+    <Row2 Column0="label3" Column1="Name" Column2="姓名" Column3="姓名" Column4="Tên" />
+    <Row3 Column0="label5" Column1="IdCard" Column2="证件号码" Column3="證件號碼" Column4="Số giấy chứng nhận" />
+    <Row4 Column0="label7" Column1="CardNO" Column2="持卡号码" Column3="持卡號碼" Column4="số thẻ hỗ trợ" />
+  </DataTable>
+</Form>

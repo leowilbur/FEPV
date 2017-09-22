@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="17" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="_ParameterPanel" Column1="[Visitor Info]" Column2="[访客信息]" Column3="[訪客信息]" Column4="[Thông tin khách]" />
+    <Row1 Column0="btCamera" Column1="OpenCamera" Column2="启用摄像头" Column3="啟用攝像頭" Column4="Sử dụng webcam" />
+    <Row2 Column0="btIDCardReader" Column1="ReadIDCard" Column2="读取身份证" Column3="讀取身份證" Column4="Đọc ID" />
+    <Row3 Column0="groupPanel1" Column1="[Respondents info]" Column2="[受访人信息]" Column3="[受訪人信息]" Column4="[Thông tin người đón khách]" />
+    <Row4 Column0="label1" Column1="Path" Column2="相片路径" Column3="相片路徑" Column4="Chọn hình ảnh từ đường dẫn" />
+    <Row5 Column0="label10" Column1="Reason" Column2="事由" Column3="事由" Column4="Lý do" />
+    <Row6 Column0="label11" Column1="Region" Column2="访问区域" Column3="訪問區域" Column4="Khu vực làm việc" />
+    <Row7 Column0="label12" Column1="RespondentsDepartment" Column2="受访人部门" Column3="受訪人部門" Column4="Đơn vị người đang ký" />
+    <Row8 Column0="label13" Column1="RespondentsID" Column2="受访人工号" Column3="受訪人工號" Column4="Số thẻ người đăng ký" />
+    <Row9 Column0="label14" Column1="RespondentsName" Column2="受访人姓名" Column3="受訪人姓名" Column4="Tên người đăng ký" />
+    <Row10 Column0="label2" Column1="Enterprise" Column2="工作单位" Column3="工作單位" Column4="Đơn vị làm việc" />
+    <Row11 Column0="label3" Column1="Certification type" Column2="证照类型" Column3="證照類型" Column4="Loại thẻ" />
+    <Row12 Column0="label4" Column1="Name" Column2="姓名" Column3="姓名" Column4="Tên" />
+    <Row13 Column0="label5" Column1="CardNO" Column2="射频卡号" Column3="射頻卡號" Column4="Số thẻ" />
+    <Row14 Column0="label6" Column1="IdCard" Column2="证件号码" Column3="證件號碼" Column4="Số CMND" />
+    <Row15 Column0="label7" Column1="ExtNO" Column2="分机号码" Column3="分機號碼" Column4="Số nội bộ" />
+    <Row16 Column0="label8" Column1="Remark" Column2="备注" Column3="備註" Column4="Ghi chú" />
+  </DataTable>
+</Form>

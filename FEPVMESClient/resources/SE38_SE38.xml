@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="8" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="_iEnabled" Column1="Enabled" Column2="是否可用" Column3="是否可用" Column4="có không dùng tới" />
+    <Row1 Column0="_ParameterPanel" Column1="[Application]" Column2="[应用程序]" Column3="[應用程序]" Column4="thứ tự ứng dụng" />
+    <Row2 Column0="btScriptAdd" Column1="Create" Column2="Create" Column3="Create" Column4="Create" />
+    <Row3 Column0="btScriptChange" Column1="Change" Column2="Change" Column3="Change" Column4="Change" />
+    <Row4 Column0="btScriptDelete" Column1="Delete" Column2="Delete" Column3="Delete" Column4="Delete" />
+    <Row5 Column0="btSearch" Column1="Search(&amp;S)" Column2="检索(&amp;S)" Column3="檢索(&amp;S)" Column4="tìm kiếm" />
+    <Row6 Column0="groupPanel1" Column1="[System directory]" Column2="[系统目录]" Column3="[系統目錄]" Column4="mục lục hệ thống" />
+    <Row7 Column0="labelControl1" Column1="Program" Column2="程序" Column3="程序" Column4="thứ tự" />
+  </DataTable>
+</Form>

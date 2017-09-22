@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="1" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="xtraTabPage1" Column1="result" Column2="查询结果" Column3="查詢結果" Column4="result" />
+  </DataTable>
+  <!--GridTable:gridView1-->
+  <GridTable TableName="gridView1" CountOfRows="11" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="Mac" Column1="Mac" Column2="卡号" Column3="卡號" Column4="Mac" />
+    <Row1 Column0="ContractorID" Column1="ContractorID" Column2="工号" Column3="工號" Column4="ContractorID" />
+    <Row2 Column0="ContractorName" Column1="ContractorName" Column2="姓名" Column3="姓名" Column4="ContractorName" />
+    <Row3 Column0="Company" Column1="Company" Column2="单位/部门" Column3="單位/部門" Column4="Company" />
+    <Row4 Column0="Operate" Column1="Operate" Column2="进/出" Column3="進/出" Column4="Operate" />
+    <Row5 Column0="OperateTime" Column1="OperateTime" Column2="刷卡时间" Column3="刷卡時間" Column4="OperateTime" />
+    <Row6 Column0="CardType" Column1="CardType" Column2="卡类型" Column3="卡類型" Column4="CardType" />
+    <Row7 Column0="CardTypeSpec" Column1="CardTypeSpec" Column2="卡类型描述" Column3="卡類型描述" Column4="CardTypeSpec" />
+    <Row8 Column0="SiteName" Column1="SiteName" Column2="刷卡点" Column3="刷卡點" Column4="SiteName" />
+    <Row9 Column0="Remark" Column1="Remark" Column2="备注" Column3="備註" Column4="Remark" />
+    <Row10 Column0="ValidTo" Column1="ValidTo" Column2="有效期" Column3="有效期" Column4="ValidTo" />
+  </GridTable>
+</Form>

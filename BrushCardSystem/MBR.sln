@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAS.DAL", "BAS.DAL\BAS.DAL.csproj", "{B7CB1E14-5261-4722-8F10-1CB897EEBE82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemotingService", "RemotingService\RemotingService.csproj", "{63C61A34-97D7-4C84-A582-B8229525980F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{28C72C9F-2574-4CF1-A148-0F473D795620}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eGateCard", "eGateCard\eGateCard.csproj", "{6E819E88-BC55-4F86-AF1F-8AD94EBAAB95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7CB1E14-5261-4722-8F10-1CB897EEBE82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7CB1E14-5261-4722-8F10-1CB897EEBE82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7CB1E14-5261-4722-8F10-1CB897EEBE82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7CB1E14-5261-4722-8F10-1CB897EEBE82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63C61A34-97D7-4C84-A582-B8229525980F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63C61A34-97D7-4C84-A582-B8229525980F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63C61A34-97D7-4C84-A582-B8229525980F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63C61A34-97D7-4C84-A582-B8229525980F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28C72C9F-2574-4CF1-A148-0F473D795620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28C72C9F-2574-4CF1-A148-0F473D795620}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28C72C9F-2574-4CF1-A148-0F473D795620}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28C72C9F-2574-4CF1-A148-0F473D795620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E819E88-BC55-4F86-AF1F-8AD94EBAAB95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E819E88-BC55-4F86-AF1F-8AD94EBAAB95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E819E88-BC55-4F86-AF1F-8AD94EBAAB95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E819E88-BC55-4F86-AF1F-8AD94EBAAB95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

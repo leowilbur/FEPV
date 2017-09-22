@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AE02F6D0-29A8-44AF-890C-1E9B106B4461}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FEPV.Views.MFBF</RootNamespace>
+    <AssemblyName>FEPV.Views.MFBF</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Release\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BasicLanuage">
+      <HintPath>..\Release\BasicLanuage.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2">
+      <HintPath>..\Release\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v12.1.Core, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v12.1, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.PivotGrid.v12.1.Core, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v12.1.Core, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v12.1.Core, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v12.1, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v12.1, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v12.1, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v12.1, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v12.1, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPivotGrid.v12.1, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v12.1, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Release\DevExpress.XtraReports.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v12.1.Design, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Release\DevExpress.XtraReports.v12.1.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Infrastructure.BaseForm">
+      <HintPath>..\Release\Infrastructure.BaseForm.dll</HintPath>
+    </Reference>
+    <Reference Include="Infrastructure.Library">
+      <HintPath>..\Release\Infrastructure.Library.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.CompositeUI">
+      <HintPath>..\Release\Microsoft.Practices.CompositeUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.CompositeUI.WinForms">
+      <HintPath>..\Release\Microsoft.Practices.CompositeUI.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="MIS.Utility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\FEPV\Release\MIS.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking">
+      <HintPath>..\Release\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BomTree.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BomTree.Designer.cs">
+      <DependentUpon>BomTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MFBF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MFBF.Designer.cs">
+      <DependentUpon>MFBF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MFBFBiz.cs" />
+    <Compile Include="MFBFInterface.cs" />
+    <Compile Include="POLY\RphVoucherView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="POLY\RphVoucherView.Designer.cs">
+      <DependentUpon>RphVoucherView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="POLY\QueryBatchParamentersView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="POLY\QueryBatchParamentersView.Designer.cs">
+      <DependentUpon>QueryBatchParamentersView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="POLY\SihVoucherView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="POLY\SihVoucherView.Designer.cs">
+      <DependentUpon>SihVoucherView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="POLY\UnsettledJobsParamentersView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="POLY\UnsettledJobsParamentersView.Designer.cs">
+      <DependentUpon>UnsettledJobsParamentersView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryBatchStep.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QueryBatchStep.Designer.cs">
+      <DependentUpon>QueryBatchStep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QueryGoodsStep.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QueryGoodsStep.Designer.cs">
+      <DependentUpon>QueryGoodsStep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QueryVoucherStep.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QueryVoucherStep.Designer.cs">
+      <DependentUpon>QueryVoucherStep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportMaster.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportMaster.Designer.cs">
+      <DependentUpon>ReportMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportRTS.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportRTS.Designer.cs">
+      <DependentUpon>ReportRTS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SSP\QueryBatchParamentersView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SSP\QueryBatchParamentersView.Designer.cs">
+      <DependentUpon>QueryBatchParamentersView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SSP\RphVoucherView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SSP\RphVoucherView.Designer.cs">
+      <DependentUpon>RphVoucherView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SSP\SihVoucherView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SSP\SihVoucherView.Designer.cs">
+      <DependentUpon>SihVoucherView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SSP\UnsettledJobsParamentersView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SSP\UnsettledJobsParamentersView.Designer.cs">
+      <DependentUpon>UnsettledJobsParamentersView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UnsettledJobsStep.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnsettledJobsStep.Designer.cs">
+      <DependentUpon>UnsettledJobsStep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Versions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MFBF.resx">
+      <DependentUpon>MFBF.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POLY\RphVoucherView.resx">
+      <DependentUpon>RphVoucherView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POLY\QueryBatchParamentersView.resx">
+      <DependentUpon>QueryBatchParamentersView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POLY\SihVoucherView.resx">
+      <DependentUpon>SihVoucherView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POLY\UnsettledJobsParamentersView.resx">
+      <DependentUpon>UnsettledJobsParamentersView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="QueryBatchStep.resx">
+      <DependentUpon>QueryBatchStep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueryGoodsStep.resx">
+      <DependentUpon>QueryGoodsStep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueryVoucherStep.resx">
+      <DependentUpon>QueryVoucherStep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportMaster.resx">
+      <DependentUpon>ReportMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportRTS.resx">
+      <DependentUpon>ReportRTS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SSP\QueryBatchParamentersView.resx">
+      <DependentUpon>QueryBatchParamentersView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SSP\RphVoucherView.resx">
+      <DependentUpon>RphVoucherView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SSP\SihVoucherView.resx">
+      <DependentUpon>SihVoucherView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SSP\UnsettledJobsParamentersView.resx">
+      <DependentUpon>UnsettledJobsParamentersView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnsettledJobsStep.resx">
+      <DependentUpon>UnsettledJobsStep.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\FEPV\BLL\FEPV.BLL.csproj">
+      <Project>{989df180-c826-481f-b5ea-6f2d48920e98}</Project>
+      <Name>FEPV.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\FEPV\Model\FEPV.Model.csproj">
+      <Project>{68916bbb-693b-4768-9b67-6590b06d028f}</Project>
+      <Name>FEPV.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FEPV.Views.MESD\FEPV.Views.MESD.csproj">
+      <Project>{c1aaa7f4-488f-42cf-98de-b213a7579227}</Project>
+      <Name>FEPV.Views.MESD</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\FEPV.Views.MasterElements.datasource" />
+    <None Include="Resources\new.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Serch.gif" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

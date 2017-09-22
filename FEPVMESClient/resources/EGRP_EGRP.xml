@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="13" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="btBackGoods" Column1="Return" Column2="后退" Column3="後退" Column4="Quay trở lại" />
+    <Row1 Column0="btExcelGoods" Column1="EXCEL" Column2="EXCEL" Column3="EXCEL" Column4="EXCEL" />
+    <Row2 Column0="btExcelGuest" Column1="EXCEL" Column2="EXCEL" Column3="EXCEL" Column4="EXCEL" />
+    <Row3 Column0="btExcelNoback" Column1="EXCEL" Column2="EXCEL" Column3="EXCEL" Column4="EXCEL" />
+    <Row4 Column0="btExcelTruck" Column1="EXCEL" Column2="EXCEL" Column3="EXCEL" Column4="EXCEL" />
+    <Row5 Column0="btnDetailsGuest" Column1="Detail" Column2="人员明细" Column3="人員明細" Column4="chi tiết nhân viên" />
+    <Row6 Column0="btnRepGuest" Column1="Preview" Column2="打印预览" Column3="打印預覽" Column4="In xem trước" />
+    <Row7 Column0="btnSearchGoods" Column1="Query" Column2="查询" Column3="查詢" Column4="Tìm hiểu" />
+    <Row8 Column0="btnSearchGuest" Column1="Query" Column2="查询" Column3="查詢" Column4="Tìm hiểu" />
+    <Row9 Column0="btnSearchTruck" Column1="Query" Column2="查询" Column3="查詢" Column4="Tìm hiểu" />
+    <Row10 Column0="tabPageGoods" Column1="[goods plan query]" Column2="[物品计划查询]" Column3="[物品計劃查詢]" Column4="[điều tra mã số sản phẩm]" />
+    <Row11 Column0="tabPageGuest" Column1="[Query officer plan]" Column2="[人员计划查询]" Column3="[人員計劃查詢]" Column4="điều tra mã số nhân viên" />
+    <Row12 Column0="tabPageTruck" Column1="[Vehicle plan inquiry]" Column2="[车辆计划查询]" Column3="[車輛計劃查詢]" Column4="[điều tra mã số phương tiện]" />
+  </DataTable>
+</Form>

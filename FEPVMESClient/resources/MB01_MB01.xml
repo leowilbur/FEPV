@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="4" CountOfColumns="5" >
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="btExcel" Column1="ToExcel" Column2="ToExcel" Column3="ToExcel" Column4="ToExcel" />
+    <Row1 Column0="btn2txt" Column1="Totxt" Column2="Totxt" Column3="Totxt" Column4="Totxt" />
+    <Row2 Column0="btReturn" Column1="Return" Column2="返回" Column3="返回" Column4="return" />
+    <Row3 Column0="btSearch" Column1="Search" Column2="查询" Column3="查詢" Column4="Tìm kiếm" />
+  </DataTable>
+</Form>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="12" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="label26" Column1="Material No:" Column2="物料:" Column3="物料:" Column4="Mã vật liệu:" />
+    <Row1 Column0="label39" Column1="Grade:" Column2="等级:" Column3="等级:" Column4="Grade:" />
+    <Row2 Column0="label31" Column1="Number:" Column2="包数:" Column3="包数:" Column4="Số lượng:" />
+    <Row3 Column0="label7" Column1="Chip:" Column2="酯别:" Column3="酯别:" Column4="Chip:" />
+    <Row4 Column0="label3" Column1="PackID:" Column2="包装人员:" Column3="包装人员:" Column4="Mã đóng gói:" />
+    <Row5 Column0="label36" Column1="ProductTime:" Column2="日期:" Column3="日期:" Column4="Thời gian tạo:" />
+	<Row6 Column0="label21" Column1="Grades:" Column2="特代:" Column3="特代:" Column4="Grades:" />
+	<Row7 Column0="label32" Column1="Line:" Column2="线别:" Column3="线别:" Column4="Line:" />
+	<Row8 Column0="label37" Column1="Net WT:" Column2="定重:" Column3="定重:" Column4="Khối lượng tịnh:" />
+	<Row9 Column0="label38" Column1="GWT:" Column2="皮重:" Column3="皮重:" Column4="GWT:" />
+	<Row10 Column0="label1" Column1="Note: Processing trade regulatory requirements" Column2="注意:加工贸易监管要求" Column3="注意:加工贸易监管要求" Column4="Lưu ý: tuân thủ các yêu cầu thương mại" />
+	<Row11 Column0="label2" Column1="CheckID:" Column2="检验员:" Column3="检验员:" Column4="Mã kiểm tra:" />
+  </DataTable>
+</Form>

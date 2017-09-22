@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="3" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="groupPanel2" Column1="[Modify the parameters]" Column2="[修改参数]" Column3="[修改參數]" Column4="chỉnh sữa thăm số" />
+    <Row1 Column0="label3" Column1="username:" Column2="用户名:" Column3="用戶名:" Column4="tên người dùng" />
+    <Row2 Column0="label6" Column1="new password:" Column2="新密码:" Column3="新密碼:" Column4="mật khẩu mới" />
+  </DataTable>
+</Form>

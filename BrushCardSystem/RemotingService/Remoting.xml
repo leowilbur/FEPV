@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+
+<configuration>
+  <system.runtime.remoting>
+    <customErrors mode="off" />
+    <application name="RemoteServer">
+      <service>
+        <wellknown type="Service.TServiceHelper,Service" objectUri="Service.TServiceHelper"
+            mode="Singleton" />
+      </service>
+      <channels>
+        <channel ref="tcp" port="8090"/>
+      </channels>
+    </application>
+  </system.runtime.remoting>
+
+
+</configuration>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="9" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="groupPanel1" Column1="[Query conditions]" Column2="[查询条件]" Column3="[查詢條件]" Column4="[điều khoảng điều tra]" />
+    <Row1 Column0="groupPanel2" Column1="[Visitor Info]" Column2="[访客信息]" Column3="[訪客信息]" Column4="[thông tin khách thăm]" />
+    <Row2 Column0="label1" Column1="Status" Column2="状态" Column3="狀態" Column4="trạng thái" />
+    <Row3 Column0="label2" Column1="CardNO" Column2="射频卡号" Column3="射頻卡號" Column4="số thẻ tầng sống" />
+    <Row4 Column0="label3" Column1="To" Column2="至" Column3="至" Column4="đến" />
+    <Row5 Column0="label4" Column1="Types" Column2="人员类型" Column3="人員類型" Column4="loại người" />
+    <Row6 Column0="label5" Column1="GuestName" Column2="访客姓名" Column3="訪客姓名" Column4="tên khách" />
+    <Row7 Column0="label6" Column1="ExpectIn" Column2="预约进厂日期" Column3="預約進廠日期" Column4="Ngày hẹn vào xưởng" />
+    <Row8 Column0="label7" Column1="Enterprise" Column2="访客单位" Column3="訪客單位" Column4="bộ phận tiếp khách" />
+  </DataTable>
+  <!--GridTable:gridViewGuest1-->
+  <GridTable TableName="gridViewGuest1" CountOfRows="28" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="VoucherID" Column1="VoucherID" Column2="VoucherID" Column3="VoucherID" Column4="mã chứng từ" />
+    <Row1 Column0="GuestType" Column1="GuestType" Column2="人员类型" Column3="人員類型" Column4="kiểu người" />
+    <Row2 Column0="StateSpec" Column1="StatusSpec" Column2="状态描述" Column3="狀態描述" Column4="miêu tả trạng thái" />
+    <Row3 Column0="Name" Column1="Name" Column2="姓名" Column3="姓名" Column4="Tên" />
+    <Row4 Column0="Enterprise" Column1="Enterprise" Column2="工作单位" Column3="工作單位" Column4="Đơn vị làm việc" />
+    <Row5 Column0="Content" Column1="Reason" Column2="事由" Column3="事由" Column4="Chủ đề" />
+    <Row6 Column0="CardNO" Column1="CardNO" Column2="卡号" Column3="卡號" Column4="Số thẻ" />
+    <Row7 Column0="Respondent" Column1="Respondent" Column2="受访人工号" Column3="受訪人工號" Column4="số thẻ người tiếp khách" />
+    <Row8 Column0="RespondentName" Column1="Respondent Name" Column2="受访人姓名" Column3="受訪人姓名" Column4="họ tên người tiếp khách" />
+    <Row9 Column0="Specification" Column1="Specification" Column2="受访人部门" Column3="受訪人部門" Column4="Ứng viên tỉnh" />
+    <Row10 Column0="ExtNO" Column1="ExtNO" Column2="分机号" Column3="分機號" Column4="số diện thoại bàng" />
+    <Row11 Column0="ExpectIn" Column1="ExpectIn" Column2="预计到厂时间" Column3="預計到廠時間" Column4="Thời gian dự kiến đến xưởng" />
+    <Row12 Column0="InTime" Column1="InTime" Column2="进厂时间" Column3="進廠時間" Column4="thời gian vào xưởng lần một" />
+    <Row13 Column0="OutTime" Column1="OutTime" Column2="出厂时间" Column3="出廠時間" Column4="thời gian xuất xưởng" />
+    <Row14 Column0="Complete" Column1="Complete" Column2="确认受访完成时间" Column3="確認受訪完成時間" Column4="thời gian hiện trường xác nhận" />
+    <Row15 Column0="ValidTo" Column1="ValidTo" Column2="有效日期" Column3="有效日期" Column4="Ngày có hiệu lực" />
+    <Row16 Column0="IsNeedConfirm" Column1="IsNeedConfirm" Column2="是否现场确认" Column3="是否現場確認" Column4="có không xác nhận hiện trường" />
+    <Row17 Column0="Region" Column1="Region" Column2="访问区域" Column3="訪問區域" Column4="khu thăm hỏi" />
+    <Row18 Column0="IdCard" Column1="IdCard" Column2="证件号码" Column3="證件號碼" Column4="Số giấy chứng nhận" />
+    <Row19 Column0="Stamp" Column1="Stamp" Column2="时间戳" Column3="時間戳" Column4="mốc thời thời" />
+    <Row20 Column0="UserID" Column1="UserID" Column2="创建人" Column3="創建人" Column4="người lập" />
+    <Row21 Column0="ID" Column1="ID" Column2="ID" Column3="ID" Column4="số thẻ" />
+    <Row22 Column0="Types" Column1="Types" Column2="Types" Column3="Types" Column4="Types" />
+    <Row23 Column0="Status" Column1="Status" Column2="Status" Column3="Status" Column4="trạng thái" />
+    <Row24 Column0="PhoneNo" Column1="Link Phone" Column2="联系电话" Column3="聯系電話" Column4="Tiện ích mở rộng của người nộp đơn" />
+    <Row25 Column0="ProvideDate" Column1="ProvideDate" Column2="办卡日期" Column3="辦卡日期" Column4="ngày lập thẻ" />
+    <Row26 Column0="TrainDate" Column1="Train Date" Column2="培训日期" Column3="培訓日期" Column4="ngày đào tạo" />
+    <Row27 Column0="Remark" Column1="Remark" Column2="备注" Column3="備註" Column4="Ghi chú" />
+    <Row28 Column0="ExpectOutTime" Column1="Estimated time of delivery" Column2="预计出厂时间" Column3="預計出廠時間" Column4="Thời gian xuất dự kiến" />
+    <Row29 Column0="VehicleNo" Column1="VehicleNo" Column2="车号" Column3="車號" Column4="số xe mang ra" />
+  </GridTable>
+</Form>

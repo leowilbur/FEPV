@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="5" CountOfColumns="5" >
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+	<Row0 Column0="lbReason" Column1="Search" Column2="查找" Column3="查找" Column4="Tìm" />
+	<Row1 Column0="btYes" Column1="Edit" Column2="编辑" Column3="编辑" Column4="Sửa" />
+    <Row2 Column0="btNO" Column1="Re-Print" Column2="补印标签" Column3="补印标签" Column4="In lại" />
+  </DataTable>
+</Form>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="2" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="label1" Column1="Please select the Discharge" Column2="请选择卸货点" Column3="請選擇卸貨點" Column4="Chọn điểm xuống hàng" />
+    <Row1 Column0="label2" Column1="Discharge:" Column2="卸货点:" Column3="卸貨點:" Column4="Điểm xuống hàng:" />
+  </DataTable>
+</Form>

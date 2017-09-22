@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="6" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="btnSearch" Column1="Query" Column2="查询" Column3="查詢" Column4="Tìm kiếm" />
+    <Row1 Column0="btnWeight1Back" Column1="Cancel One" Column2="冲销进厂过磅" Column3="沖銷進廠過磅" Column4="Quay về lần cân 1" />
+    <Row2 Column0="btnWeight2Back" Column1="Cancel Two" Column2="冲销出厂过磅" Column3="沖銷出廠過磅" Column4="Quay về lần cân 2" />
+    <Row3 Column0="btnPrintBack" Column1="Cancel Print" Column2="打印磅单冲销" Column3="打印磅單沖銷" Column4="Quay về trạng thái in" />
+    <Row4 Column0="btnAlterTkno" Column1="Alter TruckNo" Column2="修改车号" Column3="修改車號" Column4="Thay đổi số xe" />
+    <Row5 Column0="tabPageGuest" Column1="[Cancel Vehicle plan]" Column2="[车辆计划冲销]" Column3="[車輛計劃沖銷]" Column4="[Thông tin xe]" />    
+  </DataTable>
+</Form>

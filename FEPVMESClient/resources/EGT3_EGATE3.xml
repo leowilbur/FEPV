@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="13" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="btnBackGuest" Column1="Return" Column2="后退" Column3="後退" Column4="Quay về" />
+    <Row1 Column0="btnCameraGuest" Column1="Camera" Column2="拍照" Column3="拍照" Column4="Hình ảnh" />
+    <Row2 Column0="btnInGuest" Column1="CheckIn" Column2="办卡登记" Column3="辦卡登記" Column4="Đăng ký khách vào" />
+    <Row3 Column0="btnPrintMore" Column1="Print" Column2="打印" Column3="打印" Column4="Print" />
+    <Row4 Column0="btnSaveGuest" Column1="SaveInfo" Column2="保存信息" Column3="保存信息" Column4="Lưu thông tin" />
+    <Row5 Column0="btnSearchGuest" Column1="Query" Column2="查询" Column3="查詢" Column4="Tìm kiếm" />
+    <Row6 Column0="tabPageGuest" Column1="Visitor Plan" Column2="计划查询" Column3="計劃查詢" Column4="Tìm kiếm mã số nhà thầu" />
+	<Row7 Column0="btnGetCardBack" Column1="Get Card Back" Column2="回收卡" Column3="回收卡" Column4="Thu hồi thẻ" />
+  </DataTable>
+</Form>

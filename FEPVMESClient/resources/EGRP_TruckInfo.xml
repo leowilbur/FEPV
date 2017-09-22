@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="8" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="groupPanel1" Column1="[Query conditions]" Column2="[查询条件]" Column3="[查詢條件]" Column4="[điều khoảng điều tra]" />
+    <Row1 Column0="groupPanel2" Column1="[Vehicle Info]" Column2="[车辆信息]" Column3="[車輛信息]" Column4="[Lưu lượng truy cập thông tin]" />
+    <Row2 Column0="label1" Column1="ExpectIn" Column2="预约进厂日期" Column3="預約進廠日期" Column4="Ngày hẹn vào nhà máy" />
+    <Row3 Column0="label2" Column1="To" Column2="至" Column3="至" Column4="đến" />
+    <Row4 Column0="label3" Column1="PonderationID" Column2="磅单号码" Column3="磅單號碼" Column4="Số điểm" />
+    <Row5 Column0="label4" Column1="VehicleNO" Column2="车号" Column3="車號" Column4="Tấm giấy phép số" />
+    <Row6 Column0="label5" Column1="Status" Column2="状态" Column3="狀態" Column4="trạng thái" />
+    <Row7 Column0="label6" Column1="Types" Column2="类型" Column3="類型" Column4="Loại hình" />
+  </DataTable>
+  <!--GridTable:gridViewTruck1-->
+  <GridTable TableName="gridViewTruck1" CountOfRows="0" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+  </GridTable>
+</Form>

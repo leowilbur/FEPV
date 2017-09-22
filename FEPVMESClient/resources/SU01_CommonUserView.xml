@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="7" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="groupPanel2" Column1="[Modify the parameters]" Column2="[修改参数]" Column3="[修改參數]" Column4="chỉnh sữa thăm số" />
+    <Row1 Column0="label1" Column1="Confirm the new password:" Column2="确认新密码:" Column3="确认新密码:" Column4="xác nhận mật khẩu mới" />
+    <Row2 Column0="label2" Column1="new password:" Column2="新密码:" Column3="新密碼:" Column4="mật khẩu mới" />
+    <Row3 Column0="label3" Column1="username:" Column2="用户名:" Column3="用戶名:" Column4="tên người dùng" />
+    <Row4 Column0="label6" Column1="original password:" Column2="原始密码:" Column3="原始密碼:" Column4="mật khẩu ban đầu" />
+    <Row5 Column0="labelControl1" Column1="*The new password must be 6-12 digits." Column2="*新密码必须是6-12位." Column3="*新密碼必須是6-12位." Column4="mật khẩu mới từ 6-12 số" />
+    <Row6 Column0="labelControl2" Column1="*The new password entered twice must be the same." Column2="*二次输入的新密码必须是一样." Column3="*二次輸入的新密碼必須是一樣." Column4="nhập mật khẩu lần 2 phải giống lần 1" />
+  </DataTable>
+</Form>

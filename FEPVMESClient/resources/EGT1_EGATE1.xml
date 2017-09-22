@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="16" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="btnBackShort" Column1="Return" Column2="后退" Column3="後退" Column4="Trở về" />
+    <Row1 Column0="btnBackTruck" Column1="Return" Column2="后退" Column3="後退" Column4="Trở về" />
+    <Row2 Column0="btnInShort" Column1="CheckIn" Column2="登记" Column3="登記" Column4="Đăng ký" />
+    <Row3 Column0="btnInTruck" Column1="CheckIn" Column2="登记" Column3="登記" Column4="Đăng ký" />
+    <Row4 Column0="btnOutShort" Column1="CheckOut" Column2="放行" Column3="放行" Column4="Cho xe rời công ty" />
+    <Row5 Column0="btnOutTruck" Column1="CheckOut" Column2="放行" Column3="放行" Column4="Cho xe rời công ty" />
+    <Row6 Column0="btnPrintShort" Column1="Print" Column2="打印磅单" Column3="打印磅單" Column4="Print DOC" />
+    <Row7 Column0="btnPrintTruck" Column1="Print" Column2="打印磅单" Column3="打印磅單" Column4="Print DOC" />
+    <Row8 Column0="btnSearchShort" Column1="Query" Column2="查询" Column3="查詢" Column4="Tìm kiếm" />
+    <Row9 Column0="btnSearchTruck" Column1="Query" Column2="查询" Column3="查詢" Column4="Tìm kiếm" />
+    <Row10 Column0="btnUpWeightShort" Column1="UploadWeight" Column2="重量上传" Column3="重量上傳" Column4="Upload WT" />
+    <Row11 Column0="btnUpWeightTruck" Column1="UploadWeight" Column2="重量上传" Column3="重量上傳" Column4="Upload WT" />
+    <Row12 Column0="btnWeightShort" Column1="LockWeight" Column2="记忆称重" Column3="記憶稱重" Column4="Record WT" />
+    <Row13 Column0="btnWeightTruck" Column1="LockWeight" Column2="记忆称重" Column3="記憶稱重" Column4="Record WT" />
+    <Row14 Column0="tabPageShort" Column1="[ShortPlan]" Column2="[短驳计划]" Column3="[短駁計劃]" Column4="[Thông tin xe]" />
+    <Row15 Column0="tabPageTruck" Column1="[Vehicle plan]" Column2="[车辆计划]" Column3="[車輛計劃]" Column4="[Tìm kiếm mã số xe]" />
+  </DataTable>
+</Form>

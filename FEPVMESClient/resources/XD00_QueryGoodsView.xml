@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="2" CountOfColumns="5" >
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+	<Row0 Column0="_ParameterPanel" Column1="[Parameters]" Column2="[查询参数]" Column3="[查询参数]" Column4="[Thông số tìm kiếm]" />
+	<Row1 Column0="_ShowgoodsPanel" Column1="[Show goods information]" Column2="[显示产品信息]" Column3="[显示产品信息]" Column4="[Hiển thị thông tin]" />
+  </DataTable>
+  <!--GridTable:gridView1-->
+  <GridTable TableName="gridView1" CountOfRows="16" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="No" Column1="No" Column2="No" Column3="No" Column4="ID" />
+    <Row1 Column0="BarCode" Column1="BarCode" Column2="BarCode" Column3="BarCode" Column4="Mã vạch" />
+    <Row2 Column0="MaterialNO" Column1="MaterialNO" Column2="MaterialNO" Column3="MaterialNO" Column4="Mã vật liệu" />
+    <Row3 Column0="ProdSpec" Column1="ProdSpec" Column2="ProdSpec" Column3="ProdSpec" Column4="Sản phẩm" />
+    <Row4 Column0="CenterID" Column1="CenterID" Column2="CenterID" Column3="CenterID" Column4="Trung tâm chi phí" />
+    <Row5 Column0="Grade" Column1="Grade" Column2="Grade" Column3="Grade" Column4="Grade" />
+    <Row6 Column0="Grades" Column1="Grades" Column2="Grades" Column3="Grades" Column4="Grades" />
+    <Row7 Column0="Line" Column1="Line" Column2="Line" Column3="Line" Column4="Line" />
+    <Row8 Column0="Chip" Column1="Chip" Column2="Chip" Column3="Chip" Column4="Chip" />
+    <Row9 Column0="Num" Column1="Num" Column2="Num" Column3="Num" Column4="Số lượng" />
+    <Row10 Column0="GWT" Column1="GWT" Column2="GWT" Column3="GWT" Column4="GWT" />
+	<Row11 Column0="ProdDate" Column1="ProdDate" Column2="ProdDate" Column3="ProdDate" Column4="Ngày sản xuất" />
+	<Row12 Column0="Counter" Column1="Counter" Column2="Counter" Column3="Counter" Column4="Đếm" />
+	<Row13 Column0="State" Column1="State" Column2="State" Column3="State" Column4="Trạng thái" />
+	<Row14 Column0="UserID" Column1="UserID" Column2="UserID" Column3="UserID" Column4="Mã người dùng" />
+	<Row15 Column0="Remark" Column1="Remark" Column2="Remark" Column3="Remark" Column4="Ghi chú" />
+  </GridTable>
+</Form>

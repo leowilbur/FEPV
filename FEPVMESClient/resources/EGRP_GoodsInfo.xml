@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="7" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="groupPanel1" Column1="[Query conditions]" Column2="[查询条件]" Column3="[查詢條件]" Column4="[điều khoảng điều tra]" />
+    <Row1 Column0="groupPanel2" Column1="[Items info]" Column2="[物品信息]" Column3="[物品信息]" Column4="[thông tin sản phẩm]" />
+    <Row2 Column0="label1" Column1="Status" Column2="状态" Column3="狀態" Column4="trạng thái" />
+    <Row3 Column0="label2" Column1="To" Column2="至" Column3="至" Column4="đến" />
+    <Row4 Column0="label3" Column1="BeginDate" Column2="起始日期" Column3="起始日期" Column4="Ngày bắt đầu" />
+    <Row5 Column0="label4" Column1="VoucherID" Column2="物品出厂证号" Column3="物品出廠證號" Column4="chứng nhận sản phẩm xuất xưởng" />
+    <Row6 Column0="label6" Column1="Types" Column2="类型" Column3="類型" Column4="Loại hình" />
+  </DataTable>
+  <!--GridTable:gridViewGoods1-->
+  <GridTable TableName="gridViewGoods1" CountOfRows="23" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="VoucherID" Column1="VoucherID" Column2="VoucherID" Column3="VoucherID" Column4="mã chứng từ" />
+    <Row1 Column0="GoodsType" Column1="GoodsType" Column2="物品类型" Column3="物品類型" Column4="loại sản phẩm" />
+    <Row2 Column0="StateSpec" Column1="StatusSpec" Column2="状态描述" Column3="狀態描述" Column4="miêu tả trạng thái" />
+    <Row3 Column0="IsBack" Column1="IsBack" Column2="是否回厂" Column3="是否回廠" Column4="có không trở lại xưởng" />
+    <Row4 Column0="ExpectOut" Column1="ExpectOut" Column2="预计出厂日期" Column3="預估出廠日期" Column4="ngày dự tính xuất xưởng" />
+    <Row5 Column0="ExpectBack" Column1="Expect Back Date" Column2="期望回厂日期" Column3="期望回廠日期" Column4="dự tính ngày nhập xưởng" />
+    <Row6 Column0="TakeOut" Column1="TakeOut" Column2="携出人" Column3="攜出人" Column4="người mang ra" />
+    <Row7 Column0="TakeCompany" Column1="TakeCompany" Column2="携出厂商" Column3="攜出廠商" Column4="nhà thầu mang ra" />
+    <Row8 Column0="VehicleNO" Column1="Vehicle NO" Column2="携出车号" Column3="攜出車號" Column4="số xe mang ra" />
+    <Row9 Column0="Remark" Column1="Remark" Column2="备注" Column3="備註" Column4="Ghi chú" />
+    <Row10 Column0="GoodsName" Column1="GoodsName" Column2="物品名称" Column3="物品名稱" Column4="tên sản phẩm" />
+    <Row11 Column0="GoodsAmount" Column1="Quantitative" Column2="数量" Column3="數量" Column4="số lượng xuất xưởng" />
+    <Row12 Column0="BackedCount" Column1="Backed Count" Column2="回厂数量" Column3="回廠數量" Column4="số lượng trở lại xưởng" />
+    <Row13 Column0="Unit" Column1="Unit" Column2="单位" Column3="單位" Column4="ghi chú hạng mục" />
+    <Row14 Column0="Reason" Column1="Reason" Column2="事由" Column3="事由" Column4="lý do" />
+    <Row15 Column0="InTime" Column1="InTime" Column2="回厂时间" Column3="回廠時間" Column4="thời gian vào xưởng lần một" />
+    <Row16 Column0="OutTime" Column1="OutTime" Column2="出厂时间" Column3="出廠時間" Column4="thời gian xuất xưởng" />
+    <Row17 Column0="Complete" Column1="Complete" Column2="现场确认时间" Column3="現場確認時間" Column4="thời gian hiện trường xác nhận" />
+    <Row18 Column0="Status" Column1="Status" Column2="Status" Column3="Status" Column4="trạng thái" />
+    <Row19 Column0="CreateTime" Column1="CreateTime" Column2="创建时间" Column3="創建時間" Column4="thời gian tạo" />
+    <Row20 Column0="UserID" Column1="UserID" Column2="申请人工号" Column3="申請人工號" Column4="số thẻ người làm đơn" />
+    <Row21 Column0="CreaterName" Column1="Creater" Column2="申请人姓名" Column3="申請人姓名" Column4="Tên của người làm đơn" />
+    <Row22 Column0="Specification" Column1="Specification" Column2="申请人部门" Column3="申請人部門" Column4="Ứng viên tỉnh" />
+  </GridTable>
+</Form>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="7" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="lblDateFrom" Column1="From Date:" Column2="单据日期:" Column3="单据日期:" Column4="Từ ngày :" />
+    <Row1 Column0="lblDateTo" Column1="To:" Column2="到:" Column3="到:" Column4="Đến:" />
+    <Row2 Column0="lblMaterial" Column1="Material:" Column2="物料:" Column3="物料:" Column4="Vật liệu:" />
+    <Row3 Column0="lblPlant" Column1="Plant:" Column2="工厂:" Column3="工厂:" Column4="Xưởng:" />
+	<Row4 Column0="lblBatch" Column1="Batch:" Column2="批次:" Column3="批次:" Column4="Kí hiệu:" />
+	<Row5 Column0="lblMovetype" Column1="MoveType:" Column2="移动类型:" Column3="移动类型:" Column4="Mã vị trí:" />
+	<Row6 Column0="lblUser" Column1="Creator:" Column2="用户:" Column3="用户:" Column4="Người tạo:" />
+	<Row7 Column0="_ParameterPanel" Column1="[Parameters]" Column2="[Parameters]" Column3="[Parameters]" Column4="[Thông tin tìm kiểm]" />
+  </DataTable>
+  
+  <!--GridTable:gridViewGood1-->
+  <GridTable TableName="gridView1" CountOfRows="13" CountOfColumns="5">
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+    <Row0 Column0="VoucherID" Column1="VoucherID" Column2="VoucherID" Column3="VoucherID" Column4="Mã đơn" />
+    <Row1 Column0="TRANSID" Column1="TransID" Column2="TransID" Column3="TransID" Column4="Mã vận tải" />
+    <Row2 Column0="MaterialNO" Column1="MaterialNO" Column2="MaterialNO" Column3="MaterialNO" Column4="Vật liệu" />
+    <Row3 Column0="CenterID" Column1="CenterID" Column2="CenterID" Column3="CenterID" Column4="Trung tâm chi phí" />
+    <Row4 Column0="Plant" Column1="Plant" Column2="Plant" Column3="Plant" Column4="Xưởng" />
+    <Row5 Column0="Batch" Column1="Batch" Column2="Batch" Column3="Batch" Column4="Kí hiệu" />
+	<Row6 Column0="TotalNum" Column1="TotalNum" Column2="TotalNum" Column3="TotalNum" Column4="Tổng trọng lượng" />
+	<Row7 Column0="TotalCount" Column1="TotalCount" Column2="TotalCount" Column3="TotalCount" Column4="Tổng số mã vạch" />
+	<Row8 Column0="SAP" Column1="SAP" Column2="SAP" Column3="SAP" Column4="SAP" />
+	<Row9 Column0="State" Column1="State" Column2="State" Column3="State" Column4="Trạng thái" />
+	<Row10 Column0="UserID" Column1="UserID" Column2="UserID" Column3="UserID" Column4="Người tạo" />
+	<Row11 Column0="CheckID" Column1="CheckID" Column2="CheckID" Column3="CheckID" Column4="Mã kiểm tra" />
+	<Row12 Column0="AccDate" Column1="AccDate" Column2="AccDate" Column3="AccDate" Column4="AccDate" />
+  </GridTable>
+</Form>

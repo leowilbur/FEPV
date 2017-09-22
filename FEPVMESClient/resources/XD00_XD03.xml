@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Form>
+  <!--DataTable:LanguageSetting-->
+  <DataTable TableName="LanguageSetting" CountOfRows="3" CountOfColumns="5" >
+    <ClomunName Column0="ID" Column1="EN" Column2="CN" Column3="TW" Column4="VN" />
+	<Row0 Column0="btSerchBarCode" Column1="Search" Column2="查找" Column3="查找" Column4="Tìm" />
+	<Row1 Column0="btEditBarCode" Column1="Edit" Column2="编辑" Column3="编辑" Column4="Sửa" />
+    <Row2 Column0="btRePrint" Column1="Re-Print" Column2="补印标签" Column3="补印标签" Column4="In lại" />
+	<Row3 Column0="btDeleteBarCode" Column1="Delete" Column2="删除" Column3="删除" Column4="Xóa" />
+	<Row4 Column0="btSave" Column1="Save" Column2="更新" Column3="更新" Column4="Lưu lại" />
+	<Row5 Column0="btMoreGoods" Column1="More.." Column2="更多.." Column3="更多.." Column4="Hiện tất cả" />
+	<Row6 Column0="btReturn" Column1="Return" Column2="返回" Column3="返回" Column4="Quay về" />
+  </DataTable>
+</Form>
